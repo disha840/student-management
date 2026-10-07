@@ -5,8 +5,6 @@ export const users=createAsyncThunk("users/userslice",async ()=>{
     return response.data;
     
 })
-
-
 const UserSlics=createSlice({
     name:"users",
     initialState:{loading:false,

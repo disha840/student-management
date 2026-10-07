@@ -9,6 +9,7 @@ import Users from './Users'
 import ShowStudent from './ShowStudent'
 
 
+
 const App = () => {
   return (
     <div>
@@ -16,7 +17,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Login/>}/>
         <Route path='/addstudent' element={<Addstudent/>} />
-        <Route path='student' element={<Students/>} />
+        <Route path='/student' element={<Students/>} />
         <Route path='/users' element={<Users/>}/>
         <Route path='showstudent' element={<ShowStudent/>} />
 
@@ -26,6 +27,9 @@ const App = () => {
           </Protected>}/>
       </Routes>
       </BrowserRouter> 
+
+    
+    
       
       
   
